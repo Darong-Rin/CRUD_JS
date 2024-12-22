@@ -1,0 +1,168 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Poppins", serif;
+}
+
+.container {
+    width: 1200px;
+    margin: auto;
+}
+
+.row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.col-3 {
+    width: 24%;
+}
+
+.col-9 {
+    width: 74%;
+}
+
+.mb-3 {
+    margin-bottom: 20px;
+}
+
+.box-shadow {
+    box-shadow: 0px 0px 8px rgba(214, 214, 214, 0.453);
+    padding: 5px 20px;
+    border-radius: 8px;
+}
+
+.title>h1 {
+    font-size: 30px;
+    text-align: center;
+    color: rgb(54, 54, 54);
+    margin: 20px;
+}
+
+.crate-product #title-add,
+.product-list p.title {
+    font-size: 20px;
+    font-weight: 500;
+    margin: 10px 0px;
+}
+
+.crate-product label {
+    display: block;
+    font-size: 16px;
+    margin-bottom: 4px;
+}
+
+.crate-product input {
+    font-size: 18px;
+    padding: 6px 10px;
+    border-radius: 4px;
+    outline: none;
+    border: 1px solid #b0b0b0;
+    width: 100%;
+}
+
+.crate-product input:focus {
+    border: 1px solid #2679ff;
+    background-color: #5b9aff0e;
+}
+
+.btn-save {
+    font-size: 20px;
+    padding: 6px 20px;
+    background-color: #2679ff;
+    color: white;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn-save:hover {
+    background-color: #2364d9;
+}
+
+
+.product-list table {
+    width: 100%;
+}
+
+.product-list table thead tr th,
+.product-list table tbody tr td {
+    text-align: start;
+    padding-left: 8px;
+}
+
+.product-list table thead tr {
+    height: 40px;
+    background-color: #b8b8b8b2;
+}
+
+.product-list table tbody tr {
+    height: 40px;
+    background-color: #dddddd81;
+    transition: .3s;
+}
+
+.product-list table tbody tr:hover {
+    background-color: #b8b8b8b2;
+}
+.product-list table thead tr th:first-child,
+.product-list table tbody tr td:first-child {
+    text-align: center !important;
+    padding: 10px;
+}
+
+.product-list table thead tr th:nth-child(3),
+.product-list table tbody tr td:nth-child(3),
+.product-list table thead tr th:nth-child(4),
+.product-list table tbody tr td:nth-child(4) {
+    width: 150px;
+
+}
+
+.product-list table thead tr th:last-child,
+.product-list table tbody tr td:last-child {
+    width: 135px;
+}
+
+.product-list table tbody .btn-edit,
+.product-list table tbody .btn-delete {
+    outline: none;
+    border: none;
+    font-family: 16px;
+    padding: 6px 12px;
+    margin: 2px;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.product-list table tbody .btn-edit {
+    background-color: orange;
+    color: white;
+}
+
+.product-list table tbody .btn-delete {
+    background-color: orangered;
+    color: white;
+}
+
+.product-list table tbody .btn-edit:hover {
+    background-color: rgb(127, 83, 0);
+    color: white;
+}
+.product-list table tbody .btn-delete:hover {
+    background-color: #8d2600;
+    color: white;
+}
+.total-price{
+    font-size: 18px;
+    font-weight: 500;
+    margin-top: 10px;
+
+}
